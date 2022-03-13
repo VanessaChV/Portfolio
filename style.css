@@ -30,6 +30,23 @@ nav a {
     text-decoration: none;
 }
 
+nav a:hover {
+    display: inline;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 10px 20px;
+
+    position: relative;
+    width: 107px;
+    height: 24px;
+
+    color: white;
+    background: rgba(252, 165, 34, 0.7);
+    border-radius: 40px;
+    cursor: pointer;
+}
+
 .box-principal {
     position: absolute;
     width: 593px;
