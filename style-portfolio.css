@@ -113,6 +113,7 @@ nav a:hover {
     height: 40px;
     bottom: 50px;
     left: 380px;
+    top: 1000px;
 }
 
 .icons2 li {
@@ -197,12 +198,43 @@ nav a:hover {
 
     font-size: 16px;
     line-height: 24px;
-
 }
 
-p li {
+ul.datos-personales, ul.icons-descripcion, .descripcion {
+    list-style: none
+}
+
+.datos-personales {
+    display: inline-block;
+    position: absolute;
+    height: 96px;
+    left: 800px;
+    top: 250px;
+     
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    text-align: center;
+    
     color: #444343;
 }
+
+.icons-descripcion {
+    display: inline-block;
+    position: absolute;
+    left: 800px;
+    top: 440px;
+}
+
+.descripcion {
+    display: inline-block;
+    position: absolute;
+    left: 840px;
+    top: 440px;
+
+}
+
 /*CSS: PORTFOLIO */
 
 #portfolio {
@@ -235,7 +267,7 @@ form label {
     margin: 0 0 20px;
     padding: 10px 25px;
     border-radius: 10px;
-    border: 2px solid #bdbbbb;
+    border: 2px solid #c7c7c7;
     box-shadow: 5px 5px 30px 1px #e9e9e9;
 }
 
