@@ -133,23 +133,24 @@ nav a:hover {
     width: 571px;
     height: 37px;
     left: 163px;
-    top: 100px;
+    top: 80px;
 
-    font-family: 'Poppins';
     font-style: italic;
     font-weight: 400;
     font-size: 24px;
     line-height: 36px;
 
     color: #F29C1B;
+
 }
 
 #metas {
     position: absolute;
+    text-transform: uppercase;
     width: 55px;
     height: 24px;
-    left: 117px;
-    top: 239px;
+    left: 163px;
+    top: 150px;
 
     font-family: 'Poppins';
     font-style: normal;
@@ -160,6 +161,48 @@ nav a:hover {
 
 }
 
+.metas {
+    position: absolute;
+    width: 323px;
+    height: 197px;
+    left: 163px;
+    top: 165px;
+
+    font-size: 16px;
+    line-height: 24px;
+}
+
+#frustraciones {
+    position: absolute;
+    text-transform: uppercase;
+    width: 133px;
+    height: 24px;
+    left: 163px;
+    top: 440px;
+
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 24px;
+    color: #690505;
+}
+
+.frustraciones {
+    position: absolute;
+    width: 323px;
+    height: 197px;
+    left: 163px;
+    top: 455px;
+
+    font-size: 16px;
+    line-height: 24px;
+
+}
+
+p li {
+    color: #444343;
+}
 /*CSS: PORTFOLIO */
 
 #portfolio {
