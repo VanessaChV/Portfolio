@@ -117,6 +117,7 @@ nav a:hover {
 }
 
 .icons2 li {
+    list-style: none;
     display: inline-block;
     height: 40px;
     left: 380px;
@@ -240,6 +241,22 @@ ul.datos-personales, ul.icons-descripcion, .descripcion {
 #portfolio {
     text-decoration: underline;
     font-weight: bold;
+}
+
+.proyectos li {
+    list-style: none;
+    display: inline-block;
+    width: 299px;
+    height: 204px;
+    left: 83px;
+    top: 1000px;
+    
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+    border-radius: 30px;
+}
+
+#barberia {
+
 }
 
 /*CSS: CONTACT */
