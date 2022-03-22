@@ -1,0 +1,99 @@
+body {
+    font-family: 'Poppins', sans-serif;
+}
+
+.box-principal {
+    position: absolute;
+    width: 593px;
+    height: 201px;
+    left: 257px;
+    top: 198px;
+}
+
+#saludo {
+    position: absolute;
+    top: 0px;
+    bottom: 401px;
+    
+    color: #444343;
+    font-weight: 400;
+    font-size: 30px;
+    line-height: 45px;  
+}
+
+#nombre {
+    position: absolute;
+    top: -5px;
+    bottom: 401px;
+
+    color: #FCA522;
+    font-weight: bold;
+    font-size: 34px;
+    line-height: 45px;
+
+}
+
+#profesion {
+    position: absolute;
+    top: 60px;
+    bottom: 401px;
+
+    color: #4F4D47;
+    font-weight: 550;
+    font-size: 24px;
+    line-height: 36px;
+}
+
+#titulo-skills {
+    position: absolute;
+    width: 62px;
+    height: 36px;
+    left: 380px;
+    top: 430px;
+
+    color: #444343;
+    font-weight: 550;
+    font-size: 24px;
+    line-height: 36px;
+}
+
+.icons ul {
+    display: inline-block;
+}
+
+.icons1 ul li {
+    list-style: none;
+}
+
+.icons2 ul li {
+    list-style: none;
+}
+
+/*
+.icons1 ul li {
+    height: 40px;
+    bottom: 50px;
+    left: 380px;
+    top: 1000px;
+}
+
+.icons2 ul li {
+    height: 40px;
+    left: 380px;
+    top: 500px;
+}
+*/
+
+
+/* Código fondo gradiente:
+
+    background: linear-gradient(298.63deg, rgba(255, 188, 15, 0.53) 43.16%, rgba(255, 255, 255, 0.4) 92.58%);
+    filter: blur(150px);
+    transform: rotate(25.57deg)
+
+*/
+
+/*
+position: absolute;
+left: 338px;
+*/

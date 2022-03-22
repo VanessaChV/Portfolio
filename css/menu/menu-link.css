@@ -1,0 +1,38 @@
+.menu-link {
+    color: #444343;
+    font-style: normal;
+    margin-left: 1rem;
+    font-weight: 450;
+    font-size: 18px;
+    line-height: 24px;
+    text-decoration: none;
+}
+
+.menu-link.activo {
+    color: #333333;
+    font-weight: bold;
+}
+
+.menu-link:hover {
+    display: inline;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    padding: 10px 20px;
+
+    position: relative;
+    width: 107px;
+    height: 24px;
+
+    color: white;
+    font-weight: bold;
+    background: rgba(252, 165, 34, 0.7);
+    border-radius: 40px;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.menu-link#home:hover {
+    color: #ffffff;
+}
+

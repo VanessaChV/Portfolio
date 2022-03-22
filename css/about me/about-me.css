@@ -1,0 +1,106 @@
+.titulo-about {
+    position: absolute;
+    text-align: center;
+    width: 80%;
+    height: 37px;
+    left: 163px;
+    top: 80px;
+
+    font-style: italic;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 36px;
+
+    color: #F29C1B;
+
+}
+
+#metas {
+    position: absolute;
+    text-transform: uppercase;
+    width: 55px;
+    height: 24px;
+    left: 163px;
+    top: 150px;
+
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 24px;
+    color: #056403;
+
+}
+
+.metas {
+    position: absolute;
+    width: 323px;
+    height: 197px;
+    left: 163px;
+    top: 165px;
+
+    font-size: 16px;
+    line-height: 24px;
+}
+
+#frustraciones {
+    position: absolute;
+    text-transform: uppercase;
+    width: 133px;
+    height: 24px;
+    left: 163px;
+    top: 440px;
+
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 24px;
+    color: #690505;
+}
+
+.frustraciones {
+    position: absolute;
+    width: 323px;
+    height: 197px;
+    left: 163px;
+    top: 455px;
+
+    font-size: 16px;
+    line-height: 24px;
+}
+
+ul.datos-personales, ul.icons-descripcion, .descripcion {
+    list-style: none
+}
+
+.datos-personales {
+    display: inline-block;
+    position: absolute;
+    height: 96px;
+    left: 800px;
+    top: 250px;
+     
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    text-align: center;
+    
+    color: #444343;
+}
+
+.icons-descripcion {
+    display: inline-block;
+    position: absolute;
+    left: 800px;
+    top: 440px;
+}
+
+.descripcion {
+    display: inline-block;
+    position: absolute;
+    left: 840px;
+    top: 440px;
+
+}

@@ -1,0 +1,13 @@
+.header {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 10px;
+
+    position: absolute;
+    top: 10px;
+    left: 84px;
+}
+
+
+/* Si no funciona, cambiarle el nombre a .nav */
