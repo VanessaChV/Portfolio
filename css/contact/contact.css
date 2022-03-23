@@ -16,8 +16,7 @@ form label {
     margin: 0 0 20px;
     padding: 10px 25px;
     border-radius: 10px;
-    border: 2px solid #c7c7c7;
-    box-shadow: 5px 5px 30px 1px #e9e9e9;
+    border: 2px solid #f5f1f1;
 }
 
 .input-padron:hover {

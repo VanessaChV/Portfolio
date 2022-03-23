@@ -1,8 +1,11 @@
 body {
     font-family: 'Poppins', sans-serif;
+    background: linear-gradient(298.63deg, rgba(255, 188, 15, 0.53) 43.16%, rgba(255, 255, 255, 0.4) 92.58%);
+    color: #black
+    filter: blur(150px);
 }
 
-.box-principal {
+.boxPrincipal {
     position: absolute;
     width: 593px;
     height: 201px;
@@ -44,7 +47,7 @@ body {
     line-height: 36px;
 }
 
-#titulo-skills {
+#skills__titulo {
     position: absolute;
     width: 62px;
     height: 36px;
@@ -57,7 +60,7 @@ body {
     line-height: 36px;
 }
 
-.icons ul {
+.skills__icons ul {
     display: inline-block;
 }
 
@@ -85,13 +88,10 @@ body {
 */
 
 
-/* Código fondo gradiente:
+ Código fondo gradiente:
 
-    background: linear-gradient(298.63deg, rgba(255, 188, 15, 0.53) 43.16%, rgba(255, 255, 255, 0.4) 92.58%);
-    filter: blur(150px);
-    transform: rotate(25.57deg)
 
-*/
+
 
 /*
 position: absolute;
