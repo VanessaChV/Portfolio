@@ -3,6 +3,7 @@ body {
     background: linear-gradient(298.63deg, rgba(255, 188, 15, 0.53) 43.16%, rgba(255, 255, 255, 0.4) 92.58%);
     color: #black
     filter: blur(150px);
+    
 }
 
 .boxPrincipal {
@@ -10,7 +11,7 @@ body {
     width: 593px;
     height: 201px;
     left: 257px;
-    top: 198px;
+    top: 150px;
 }
 
 #saludo {
@@ -46,54 +47,3 @@ body {
     font-size: 24px;
     line-height: 36px;
 }
-
-#skills__titulo {
-    position: absolute;
-    width: 62px;
-    height: 36px;
-    left: 380px;
-    top: 430px;
-
-    color: #444343;
-    font-weight: 550;
-    font-size: 24px;
-    line-height: 36px;
-}
-
-.skills__icons ul {
-    display: inline-block;
-}
-
-.icons1 ul li {
-    list-style: none;
-}
-
-.icons2 ul li {
-    list-style: none;
-}
-
-/*
-.icons1 ul li {
-    height: 40px;
-    bottom: 50px;
-    left: 380px;
-    top: 1000px;
-}
-
-.icons2 ul li {
-    height: 40px;
-    left: 380px;
-    top: 500px;
-}
-*/
-
-
- Código fondo gradiente:
-
-
-
-
-/*
-position: absolute;
-left: 338px;
-*/
