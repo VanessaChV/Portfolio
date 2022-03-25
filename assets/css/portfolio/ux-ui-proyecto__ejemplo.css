@@ -1,7 +1,6 @@
 .ux-ui-proyecto__ejemplo {
-    border: 2px solid #fcb140;
+    border: 2px solid #444343;
     border-radius: 20px;
-    box-shadow: 10px 10px 50px 1px #fcb140;
     box-sizing: border-box;
     display: inline-block;
     margin: 2rem 3%;
@@ -14,5 +13,5 @@
 }
 
 .ux-ui-proyecto__ejemplo:hover {
-    border: 2px solid #6b6b6b;
+    border: 2px solid #F29C1B;
 }
