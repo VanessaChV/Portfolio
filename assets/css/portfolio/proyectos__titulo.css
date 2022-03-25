@@ -1,0 +1,14 @@
+.proyectos__titulo {
+    color: #444343;
+    text-transform: uppercase;
+    padding-top: 5rem;
+}
+
+#proyectos__titulo--fe {
+    text-align: center;
+}
+
+#proyectos__titulo--uxui {
+    padding-top: 0;
+    text-align: center;
+}

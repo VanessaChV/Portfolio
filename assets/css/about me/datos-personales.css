@@ -1,0 +1,14 @@
+.datos-personales {
+    color: #444343;
+    display: inline-block;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    height: 96px;
+    left: 540px;
+    line-height: 24px;
+    list-style: none;
+    position: absolute;
+    text-align: center;
+    top: 200px;  
+}

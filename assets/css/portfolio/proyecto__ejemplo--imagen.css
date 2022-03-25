@@ -1,0 +1,7 @@
+.proyecto__ejemplo--imagen {
+    display: flex;
+    left: 200px;
+    right: 200px;
+    padding: 1rem;
+    width: 200px;
+}

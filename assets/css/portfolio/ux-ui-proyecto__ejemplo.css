@@ -1,0 +1,18 @@
+.ux-ui-proyecto__ejemplo {
+    border: 2px solid #fcb140;
+    border-radius: 20px;
+    box-shadow: 10px 10px 50px 1px #fcb140;
+    box-sizing: border-box;
+    display: inline-block;
+    margin: 2rem 3%;
+    margin-left: 5rem;
+    margin-right: 5rem;
+    padding: 30px 20px;
+    text-align: center;
+    vertical-align: top;
+    width: 30%;
+}
+
+.ux-ui-proyecto__ejemplo:hover {
+    border: 2px solid #6b6b6b;
+}

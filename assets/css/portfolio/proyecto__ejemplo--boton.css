@@ -1,0 +1,16 @@
+.proyecto__ejemplo--boton {
+    color: #fdfdfd;
+    background: #FCA522;
+    border: none;
+    border-radius: 20px;
+    padding: 0.75rem;
+}
+
+.proyecto__ejemplo--boton:hover {
+    background: #f59506;  
+}
+
+.proyecto__ejemplo--botonActivo {
+    color: #fdfdfd;
+    text-decoration: none;
+}

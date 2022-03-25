@@ -7,16 +7,34 @@
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width">
         <title>About me VChV</title>
-            <link rel="stylesheet" href="reset.css">
-            <link rel="stylesheet" href="./css/index.css">            
-            <link rel="stylesheet" href="./css/menu/header.css">
-            <link rel="stylesheet" href="./css/menu/menu__items.css">
-            <link rel="stylesheet" href="./css/menu/menu__link.css">
-            <link rel="stylesheet" href="./css/menu/menu__list.css">
-            <link rel="stylesheet" href="./css/footer/footer.css">
-            <link rel="stylesheet" href="./css/about me/about-me.css">
-            <link rel="stylesheet" href="./css/portfolio/portfolio.css">
-            <link rel="stylesheet" href="./css/contact/contact.css">
+
+            <link rel="stylesheet" href="./assets/css/reset.css">
+            <link rel="stylesheet" href="./assets/css/index.css">            
+            <link rel="stylesheet" href="./assets/css/header.css">
+            <link rel="stylesheet" href="./assets/css/footer.css">
+
+            <link rel="stylesheet" href="./assets/css/menu/menu__items.css">
+            <link rel="stylesheet" href="./assets/css/menu/menu__link--cv.css">
+            <link rel="stylesheet" href="./assets/css/menu/menu__link.css">
+            <link rel="stylesheet" href="./assets/css/menu/menu__list.css">
+            
+            <link rel="stylesheet" href="./assets/css/about me/caracteristicas__descripcion--items.css">
+            <link rel="stylesheet" href="./assets/css/about me/caracteristicas__descripcion.css">        
+            <link rel="stylesheet" href="./assets/css/about me/caracteristicas__icons.css">
+            <link rel="stylesheet" href="./assets/css/about me/formacion__ejemplo--fecha.css">
+            <link rel="stylesheet" href="./assets/css/about me/formacion__ejemplo--imagen.css">
+            <link rel="stylesheet" href="./assets/css/about me/formacion__ejemplo--titulo.css">
+            <link rel="stylesheet" href="./assets/css/about me/formacion__ejemplo--lugar.css">
+            <link rel="stylesheet" href="./assets/css/about me/formacion__ejemplo.css">
+            <link rel="stylesheet" href="./assets/css/about me/formacion__ejemplos.css">
+            <link rel="stylesheet" href="./assets/css/about me/formacion__titulo.css">
+            <link rel="stylesheet" href="./assets/css/about me/formacion-academica.css">
+            <link rel="stylesheet" href="./assets/css/about me/datos-personales.css">
+            <link rel="stylesheet" href="./assets/css/about me/metas-y-frustraciones.css">
+            <link rel="stylesheet" href="./assets/css/about me/perfil__descripcion.css">
+            <link rel="stylesheet" href="./assets/css/about me/perfil__foto.css">
+            <link rel="stylesheet" href="./assets/css/about me/titulo-about.css">
+
         <link rel="preconnect" href="https://fonts.googleapis.com">
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
         <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;700&display=swap" rel="stylesheet">
@@ -31,9 +49,10 @@
                 <ul class="menu__list">
 
                     <li class="menu__items"><a class="menu__link" href="index.html">Home</a></li>
-                    <li class="menu__items" ><a class="menu__link activo" href="about-me.html">About me</a></li>
+                    <li class="menu__items" ><a class="menu__link--activo" href="about-me.html">About me</a></li>
                     <li class="menu__items"><a class="menu__link" href="portfolio.html">Portfolio</a></li>
                     <li class="menu__items"><a class="menu__link" href="contact.html">Contact</a></li>
+                    <li class="menu__items"><a class="menu__link" href="https://www.linkedin.com/in/vchv/">Linkedin</a></li>
                     <li class="menu__items"><a class="menu__link" href="https://drive.google.com/file/d/1ohMOWRUd3zi1Pej3QZtqtAZszUMpGe_K/view?usp=sharing">CV</a></li>
                 
                 </ul>
@@ -44,58 +63,183 @@
 
         <main>
 
-            <h1 class="titulo-about">“Lo único imposible es aquello que no intentas”</h1>
+            <section class="user-persona">
 
-            <section>
+                <h1 class="titulo-about">“Lo único imposible es aquello que no intentas”</h1>
 
-                <h1 id="metas">Metas</h1>
+                <div class="perfil">
 
-                <ul class="metas">
-                    
-                    <li><p><b>Crecer</b> personal y profesionalmente con personas con diferentes puntos de vista y culturas.</p></li>
-                    <li><p>Fusionar mis conocimientos para generar <strong>soluciones</strong> digitales rentables y sustentables.</p></li>
-                    <li><p>Ser parte de un <strong>equipo</strong> que trabaje en sinergia.</p></li>
+                    <img class="perfil__foto" src="./assets/img/about me/perfil.jpeg" alt="Foto de perfil">
 
-                </ul>
+                    <p class="perfil__descripcion">  "Hola, soy Vanu! Oriunda de La Plata, ciudad de las diagonales y bellos Jacarandás. Durante la pandemia decubrí cómo fusionar y aplicar mis intereses por los negocios, tecnología y diseño, en un mundo en constante movimiento.<br>  Y si de mis hobbies te cuento, me gusta mucho salir a correr, pintar con acuarelas, bailar y los idiomas sobre todas las cosas. <br>  So, ci vediamo presto?"</br></p>
 
-                <h1 id="frustraciones">Frustraciones</h1>
+                </div>
 
-                <ul class="frustraciones">
-                    <li><p>Saber que lo realizado puede estar mejor.</p></li>
-                    <li><p>Querer estar al día con las tendencias, saber que es lo último en el mercado.</p></li>
-                </ul>
+                <section class="datos">
+
+                    <ul class="datos-personales">
+
+                        <li><b>Vanessa</b></li>
+                        <li>28 años</li>
+                        <li>Argentina</li>
+                        <li>UX/UI | BUSINESS | TECH</li>
+
+                    </ul>
+
+                </section>
+
+                <section class="caracteristicas">
+
+                    <div>
+
+                        <ul class="caracteristicas__icons">
+                            <li><img src="./assets/img/about me/smile.svg" alt="Ícono de sonrisa"></li>
+                            <li><img src="./assets/img/about me/plane.svg" alt="Ícono de avión"></li>
+                            <li><img src="./assets/img/about me/learn.svg" alt="Ícono de anteojos"></li>
+                        </ul>
+        
+                    </div>
+        
+                    <div>
+        
+                        <ul class="caracteristicas__descripcion">
+                            <li class="caracteristicas__descripcion--items">Curiosa y positiva</li>
+                            <li class="caracteristicas__descripcion--items">Viajera</li>
+                            <li class="caracteristicas__descripcion--items">Aprendiz de alma</li>
+                        </ul>
+        
+                    </div>
+    
+                </section>
+
+                <section class="metas-y-frustraciones">
+
+                    <h1 id="metas">Metas</h1>
+
+                    <ul class="metas">
+                        
+                        <li><p><b>Crecer</b> personal y profesionalmente con personas con diferentes puntos de vista y culturas.</p></li>
+                        <li><p>Fusionar mis conocimientos para generar <strong>soluciones</strong> digitales rentables y sustentables.</p></li>
+                        <li><p>Ser parte de un <strong>equipo</strong> que trabaje en sinergia.</p></li>
+
+                    </ul>
+
+                    <h1 id="frustraciones">Frustraciones</h1>
+
+                    <ul class="frustraciones">
+                        <li><p>Ser multitasking... puedo con todo pero no con todo a la vez.</p></li>
+                        <li><p>Querer estar al día con las tendencias, saber que es lo último en el mercado.</p></li>
+                    </ul>
+
+                </section>
 
             </section>
 
-            <section>
+            <section class="formacion-academica">
 
-                <ul class="datos-personales">
+                <h2 class="formacion__titulo">Formación Académica</h2>
 
-                    <li><b>Vanessa</b></li>
-                    <li>28 años</li>
-                    <li>Argentina</li>
-                    <li>UX/UI | BUSINESS | TECH</li>
+                <ul class="formacion__ejemplos">
+                
+                    <li class="formacion__ejemplo">
+                        
+                        <img class="formacion__ejemplo--imagen" src="./assets/img/about me/formacion/argentina.png" alt="Portada Full Stack Web Developer"/>
+                        <h4 class="formacion__ejemplo--titulo">Full Stack Developer</h4>
+                        <p class="formacion__ejemplo--lugar">Argentina Programa</p>
+                        <p class="formacion__ejemplo--fecha">02 2022 - en proceso</p>
 
-                </ul>
+                    </li>
 
-            </section>
+                    <li class="formacion__ejemplo">
+                        
+                        <img class="formacion__ejemplo--imagen" src="./assets/img/about me/formacion/oracle.png" alt="Portada Front End Developer"/>
+                        <h4 class="formacion__ejemplo--titulo">Front End Developer</h4>
+                        <p class="formacion__ejemplo--lugar">Oracle + Alura LATAM</p>
+                        <p class="formacion__ejemplo--fecha">12 2021 - en proceso</p>
 
-            <section>
+                    </li>
 
-                <ul class="icons-descripcion">
-                    <li><img src="Icons/smile.svg" alt=""></li>
-                    <li><img src="Icons/plane.svg" alt=""></li>
-                    <li><img src="Icons/learn.svg" alt=""></li>
-                </ul>
+                    <li class="formacion__ejemplo">
+                        
+                        <img class="formacion__ejemplo--imagen" src="./assets/img/about me/formacion/figma.png" alt="Portada Figma"/>
+                        <h4 class="formacion__ejemplo--titulo">Figma desde cero</h4>
+                        <p class="formacion__ejemplo--lugar">EDteam</p>
+                        <p class="formacion__ejemplo--fecha">07 2021</p>
 
-            </section>
+                    </li>
 
-            <section>
+                    <li class="formacion__ejemplo">
+                        
+                        <img class="formacion__ejemplo--imagen" src="./assets/img/about me/formacion/contatech.png" alt="Portada Formación en Productos Digitales"/>
+                        <h4 class="formacion__ejemplo--titulo">Formación en Productos Digitales</h4>
+                        <p class="formacion__ejemplo--lugar">ContaTech</p>
+                        <p class="formacion__ejemplo--fecha">03 2021 - 07 2021</p>
 
-                <ul class="descripcion">
-                    <li>Curiosa y positiva</li>
-                    <li>Viajera</li>
-                    <li>Aprendiz de alma</li>
+                    </li>
+                
+                    <li class="formacion__ejemplo">
+                        
+                        <img class="formacion__ejemplo--imagen" src="./assets/img/about me/formacion/scrum.png" alt="Portada SCRUM"/>
+                        <h4 class="formacion__ejemplo--titulo">SCRUM FUNDAMENTALS CERTIFIED (SFC)</h4>
+                        <p class="formacion__ejemplo--lugar">Scrum Study</p>
+                        <p class="formacion__ejemplo--fecha">09 2021</p>
+
+                    </li>
+
+                    <li class="formacion__ejemplo">
+                        
+                        <img class="formacion__ejemplo--imagen" src="./assets/img/about me/formacion/research.png" alt="Portada "/>
+                        <h4 class="formacion__ejemplo--titulo">UX Research</h4>
+                        <p class="formacion__ejemplo--lugar">Google</p>
+                        <p class="formacion__ejemplo--fecha">09 2021</p>
+
+                    </li>
+
+                    <li class="formacion__ejemplo">
+                        
+                        <img class="formacion__ejemplo--imagen" src="./assets/img/about me/formacion/wireframes.png" alt="Portada "/>
+                        <h4 class="formacion__ejemplo--titulo">Wireframes, Low-Fidelity Prototypes</h4>
+                        <p class="formacion__ejemplo--lugar">Google</p>
+                        <p class="formacion__ejemplo--fecha">08 2021</p>
+
+                    </li>
+
+                    <li class="formacion__ejemplo">
+                        
+                        <img class="formacion__ejemplo--imagen" src="./assets/img/about me/formacion/foundations.png" alt="Portada Foundations of UX Design"/>
+                        <h4 class="formacion__ejemplo--titulo">Foundations of UX Design</h4>
+                        <p class="formacion__ejemplo--lugar">Google</p>
+                        <p class="formacion__ejemplo--fecha">07 2021</p>
+
+                    </li>
+
+                    <li class="formacion__ejemplo">
+                        
+                        <img class="formacion__ejemplo--imagen" src="./assets/img/about me/formacion/empathize.png" alt="Portada "/>
+                        <h4 class="formacion__ejemplo--titulo">Empathize, define and ideate</h4>
+                        <p class="formacion__ejemplo--lugar">Google</p>
+                        <p class="formacion__ejemplo--fecha">07 2021</p>
+
+                    </li>
+
+                    <li class="formacion__ejemplo">
+                        
+                        <img class="formacion__ejemplo--imagen" src="./assets/img/about me/formacion/cybersecurity.png" alt="Portada "/>
+                        <h4 class="formacion__ejemplo--titulo">Cyber Security Foundation<br> CSFPC™</h4><br></h4>
+                        <p class="formacion__ejemplo--lugar">CertiProf</p>
+                        <p class="formacion__ejemplo--fecha">12 2020</p>
+
+                    </li>
+
+                    <li class="formacion__ejemplo">
+                        
+                        <img class="formacion__ejemplo--imagen" src="./assets/img/about me/formacion/kanban.png" alt="Portada "/>
+                        <h4 class="formacion__ejemplo--titulo">Kanban Foundation - KIKF ™</h4>
+                        <p class="formacion__ejemplo--lugar">CertiProf</p>
+                        <p class="formacion__ejemplo--fecha">11 2020</p>
+
+                    </li>
+
                 </ul>
 
             </section>

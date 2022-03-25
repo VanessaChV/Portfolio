@@ -6,20 +6,34 @@
 
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width">
+        
         <title>Portfolio VChV</title>
-            <link rel="stylesheet" href="reset.css">
-            <link rel="stylesheet" href="./css/index.css">            
-            <link rel="stylesheet" href="./css/menu/header.css">
-            <link rel="stylesheet" href="./css/menu/menu__items.css">
-            <link rel="stylesheet" href="./css/menu/menu__link.css">
-            <link rel="stylesheet" href="./css/menu/menu__list.css">
-            <link rel="stylesheet" href="./css/footer/footer.css">
-            <link rel="stylesheet" href="./css/about me/about-me.css">
-            <link rel="stylesheet" href="./css/portfolio/portfolio.css">
-            <link rel="stylesheet" href="./css/contact/contact.css">
+
+            <link rel="stylesheet" href="./assets/css/reset.css">
+            <link rel="stylesheet" href="./assets/css/index.css">            
+            <link rel="stylesheet" href="./assets/css/header.css">
+            <link rel="stylesheet" href="./assets/css/footer.css">
+
+            <link rel="stylesheet" href="./assets/css/menu/menu__items.css">
+            <link rel="stylesheet" href="./assets/css/menu/menu__link--cv.css">
+            <link rel="stylesheet" href="./assets/css/menu/menu__link.css">
+            <link rel="stylesheet" href="./assets/css/menu/menu__list.css">
+
+            <link rel="stylesheet" href="./assets/css/portfolio/ux-ui-proyecto__ejemplo.css">
+            <link rel="stylesheet" href="./assets/css/portfolio/ux-ui-proyecto.css">      
+            <link rel="stylesheet" href="./assets/css/portfolio/proyectosFE.css">       
+            <link rel="stylesheet" href="./assets/css/portfolio/proyectosUXUI.css">              
+            <link rel="stylesheet" href="./assets/css/portfolio/proyectos__titulo.css">
+            <link rel="stylesheet" href="./assets/css/portfolio/proyecto__ejemplo--titulo.css">
+            <link rel="stylesheet" href="./assets/css/portfolio/proyecto__ejemplo--imagen.css">
+            <link rel="stylesheet" href="./assets/css/portfolio/proyecto__ejemplo--boton.css">
+            <link rel="stylesheet" href="./assets/css/portfolio/front-end-proyecto.css">
+            <link rel="stylesheet" href="./assets/css/portfolio/front-end-proyecto__ejemplo.css">
+
         <link rel="preconnect" href="https://fonts.googleapis.com">
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
         <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;700&display=swap" rel="stylesheet">
+    
     </head>
 
     <body>
@@ -32,8 +46,9 @@
 
                     <li class="menu__items"><a class="menu__link" href="index.html">Home</a></li>
                     <li class="menu__items"><a class="menu__link" href="about-me.html">About me</a></li>
-                    <li class="menu__items"><a class="menu__link activo" href="portfolio.html">Portfolio</a></li>
+                    <li class="menu__items"><a class="menu__link--activo" href="portfolio.html">Portfolio</a></li>
                     <li class="menu__items"><a class="menu__link" href="contact.html">Contact</a></li>
+                    <li class="menu__items"><a class="menu__link" href="https://www.linkedin.com/in/vchv/">Linkedin</a></li>
                     <li class="menu__items"><a class="menu__link" href="https://drive.google.com/file/d/1ohMOWRUd3zi1Pej3QZtqtAZszUMpGe_K/view?usp=sharing">CV</a></li>
                 
                 </ul>
@@ -44,46 +59,72 @@
 
         <main>
 
-            <section>
+            <section class="proyectosFE">
 
-                <ul class="proyectos">
+                <h2 class="proyectos__titulo" id="proyectos__titulo--fe">Front End Developer</h2>
+
+                <ul class="front-end-proyecto">
                 
-                    <li id="barberia">
-
-                        <img src="Icons/barbería.svg" alt="Imagen proyecto barbería">
-                        <h2>WEBSITE</h2>
-                        <p class="titulo-">FRONT END DEVELOPER</p>
-                        <p class="">finalizada</p>
-
-                    </li>
-
-                    <li>
-
-                        <img src="Icons/park-guell.svg" alt="Imagen proyecto Park Güell">
-                        <h2>MOBILE APP</h2>
-                        <p class="">UX/UI DESIGNER</p>
-                        <p class="">en proceso</p>
-
-                    </li>
-
-                    <li>
-
-                        <img src="Icons/sushi.svg" alt="Imagen proyecto Sushi">
-                        <h2>MOBILE APP</h2>
-                        <p class="">UI DESIGNER</p>
-                        <p class="">en proceso</p>
-
-                    </li>
-
-                    <li>
-
-                        <img src="Icons/browTech.svg">
-                        <h2>LANDING PAGE</h2>
-                        <p class="">UX/UI DESIGNER</p>
-                        <p class="">finalizada</p>
+                    <li class="front-end-proyecto__ejemplo">
                         
+                        <img class="proyecto__ejemplo--imagen" src="./assets/img/portfolio/fruta-y-fruto.png" alt="Portada Fruta y Fruto"/>
+                        <h4 class="proyecto__ejemplo--titulo">Landing Page</h4>
+                        <button class="proyecto__ejemplo--boton"><a class="proyecto__ejemplo--botonActivo" href="https://github.com/VanessaChV/Verduleria-Fruta-y-Fruto.git">Repositorio</a></button>
+
                     </li>
 
+                    <li class="front-end-proyecto__ejemplo">
+
+                        <img class="proyecto__ejemplo--imagen" src="./assets/img/portfolio/barberia.png" alt="Portada Barbería Alura"/>
+                        <h4 class="proyecto__ejemplo--titulo">Website</h4>
+                        <button class="proyecto__ejemplo--boton"> <a class="proyecto__ejemplo--botonActivo" href="https://github.com/VanessaChV/Barberia-Alura.git">Repositorio</a> </button>
+
+                    </li>
+                
+                </ul>
+
+            </section>
+
+            <section class="proyectosUXUI">
+                
+                <h2 class="proyectos__titulo" id="proyectos__titulo--uxui">UX UI Developer</h2>
+
+                <ul class="ux-ui-proyecto">
+                
+                    <li class="ux-ui-proyecto__ejemplo">
+                        
+                        <img class="proyecto__ejemplo--imagen" src="./assets/img/portfolio/browtech.png" alt="Portada BrowTech"/>
+                        <h4 class="proyecto__ejemplo--titulo">Website</h4>
+                        <button class="proyecto__ejemplo--boton"> <a class="proyecto__ejemplo--botonActivo" href="https://www.figma.com/proto/ofKpnOXqeDvyHrPoCEpBHh/Case-Study-%7C-Brow-Tech?page-id=0%3A1&node-id=3%3A38&starting-point-node-id=3%3A38">Case study</a></button>
+
+                    </li>
+
+                    <li class="ux-ui-proyecto__ejemplo">
+                        
+                        <img class="proyecto__ejemplo--imagen" src="./assets/img/portfolio/parkguell.png" alt="Portada Park Güell"/>
+                        <h4 class="proyecto__ejemplo--titulo">UX Research</h4>
+                        <button class="proyecto__ejemplo--boton"> <a class="proyecto__ejemplo--botonActivo" href="https://www.figma.com/proto/bYGlINAuQYfDL7pIOFSZjS/Park-G%C3%BCell-App?page-id=4%3A2&node-id=5%3A30&starting-point-node-id=5%3A30">Case Study</a></button>
+
+                    </li>
+                
+                    <li class="ux-ui-proyecto__ejemplo">
+                        
+                        <img class="proyecto__ejemplo--imagen" src="./assets/img/portfolio/report.png" alt="Portada Reporte Interactivo"/>
+                        <h4 class="proyecto__ejemplo--titulo">Interactive Report</h4>
+                        <button class="proyecto__ejemplo--boton"> <a class="proyecto__ejemplo--botonActivo" href="https://www.figma.com/file/W2fjsFzhovbZ5KbhCLGRNm/Truora---VChV-Design?node-id=0%3A1">Demo</a></button>
+
+                    </li>
+
+                    <li class="ux-ui-proyecto__ejemplo">
+                        
+                        <img class="proyecto__ejemplo--imagen" src="./assets/img/portfolio/sushi.png" alt="Portada Sushi App"/>
+                        <h4 class="proyecto__ejemplo--titulo">UI Mobile App</h4>
+                        <button class="proyecto__ejemplo--boton"> <a class="proyecto__ejemplo--botonActivo" href="https://www.figma.com/file/cjzvOjrTBO2QYUDXTJs336/Sushi-mobile-App?node-id=0%3A1">Demo</a></button>
+
+                    </li>
+
+                </ul>
+                
             </section>
 
         </main>

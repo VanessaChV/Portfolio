@@ -1,0 +1,51 @@
+.metas-y-frustraciones {
+    color: #444343;
+}
+
+#metas {
+    color: #056403;
+    height: 24px;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    left: 900px;
+    line-height: 24px;
+    position: absolute;
+    text-transform: uppercase;
+    top: 150px;
+    width: 55px;
+}
+
+.metas {
+    font-size: 16px;
+    height: 197px;
+    left: 900px;
+    line-height: 24px;
+    position: absolute;
+    top: 165px;
+    width: 323px;
+}
+
+#frustraciones {
+    color: #690505;
+    height: 24px;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    left: 900px;
+    line-height: 24px;
+    position: absolute;
+    text-transform: uppercase;
+    top: 440px;
+    width: 133px;
+}
+
+.frustraciones {
+    font-size: 16px;
+    height: 197px;
+    left: 900px;
+    line-height: 24px;
+    position: absolute;
+    top: 455px;
+    width: 323px;
+}
