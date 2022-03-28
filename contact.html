@@ -19,7 +19,14 @@
             <link rel="stylesheet" href="./assets/css/menu/menu__link.css">
             <link rel="stylesheet" href="./assets/css/menu/menu__list.css">
 
-            <link rel="stylesheet" href="./assets/css/contact/contact.css">
+            <link rel="stylesheet" href="./assets/css/contact/secciones.css">
+            <link rel="stylesheet" href="./assets/css/contact/seccion.css">
+            <link rel="stylesheet" href="./assets/css/contact/seccion__form.css">
+            <link rel="stylesheet" href="./assets/css/contact/seccion__construccion.css">
+
+            <link rel="stylesheet" href="./assets/css/contact/construccion_mail.css">
+            <link rel="stylesheet" href="./assets/css/contact/construccion_subtitulo.css">
+            <link rel="stylesheet" href="./assets/css/contact/construccion_titulo.css">
 
         <link rel="preconnect" href="https://fonts.googleapis.com">
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -39,8 +46,8 @@
                     <li class="menu__items"><a class="menu__link" href="about-me.html">About me</a></li>
                     <li class="menu__items"><a class="menu__link" href="portfolio.html">Portfolio</a></li>
                     <li class="menu__items"><a class="menu__link--activo" href="contact.html">Contact</a></li>
-                    <li class="menu__items"><a class="menu__link" href="https://www.linkedin.com/in/vchv/">Linkedin</a></li>
-                    <li class="menu__items"><a class="menu__link" id="menu__link--cv" href="https://drive.google.com/file/d/1wX1wdH-LxLfSrDgsRzFwhNnGJtVxuYd3/view?usp=sharing">CV</a></li>
+                    <li class="menu__items"><a class="menu__link" href="https://www.linkedin.com/in/vchv/" onclick=" this.target='_blank'"">Linkedin</a></li>
+                    <li class="menu__items"><a class="menu__link" id="menu__link--cv" href="https://drive.google.com/file/d/1wX1wdH-LxLfSrDgsRzFwhNnGJtVxuYd3/view?usp=sharing" onclick=" this.target='_blank'">CV</a></li>
                 
                 </ul>
 
@@ -50,24 +57,40 @@
 
         <main>
 
-            <form>
+            <ul class="secciones">
 
-                <label for="nombreapellido">Nombre y Apellido</label>
-                <input type="text" id="nombreapellido" class="input-padron" required> 
+                <li class="seccion">
 
-                <label for="mail">Mail</label>
-                <input type="email" id="mail" class="input-padron" required placeholder="mail@dominio.com">
-                
-                <label for="telefono">Teléfono</label>
-                <input type="tel" id="telefono" class="input-padron" required placeholder="(xx) xxx xxx xxxx">
+                    <form class="seccion__form">
 
-                <label for="mensaje">Mensaje</label>
-                <textarea cols="70" rows="10" id="mensaje" class="input-padron" required></textarea>
-                
-                <input type="submit" value="Enviar" class="enviar">
+                        <label for="nombreapellido">Nombre y Apellido</label>
+                        <input type="text" id="nombreapellido" class="input-padron" required> 
+        
+                        <label for="mail">Mail</label>
+                        <input type="email" id="mail" class="input-padron" required placeholder="mail@dominio.com">
+                        
+                        <label for="telefono">Teléfono</label>
+                        <input type="tel" id="telefono" class="input-padron" required placeholder="(xx) xxx xxx xxxx">
+        
+                        <label for="mensaje">Mensaje</label>
+                        <textarea cols="70" rows="10" id="mensaje" class="input-padron" required></textarea>
+                        
+                        <input type="submit" value="Enviar" class="enviar">
+        
+                    </form>
 
-            </form>
+                </li>
 
+                <li class="seccion">
+
+                    <section class="seccion__construccion">
+                        <p class="construccion_titulo">Sección en construcción &#128170</p>
+                        <p class="construccion_subtitulo">Me encantaría conocerte, hablamos?</p>
+                        <p class="construccion_mail">vchv.design@gmail.com</p>
+                    </section>
+                </li>
+
+            </ul>
         </main>
 
     </body>

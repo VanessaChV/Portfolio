@@ -1,20 +1,23 @@
-form {
-    margin:80px 370px;
-    width:50%;
+.seccion__form {
+    margin-left: 150px;
+    margin-right: 50px;  
 }
+/*
+width:50%;
+*/
 
 form label {
     display: block;
     font-size: 18px;
     color: #444343;
-    margin: 7px 0 10px;
+    margin: 7px 0 5px;
 }
 
 .input-padron {
     width: 80%;
     display: block;
     margin: 0 0 20px;
-    padding: 7px 25px;
+    padding: 7px 10px;
     border-radius: 10px;
     border: 2px solid #f5f1f1;
 }
@@ -24,7 +27,7 @@ form label {
 }
 
 .enviar {
-    width: 88%;
+    width: 80%;
     padding: 15px 0;
     font-size: 18px;
     font-weight: bold;
