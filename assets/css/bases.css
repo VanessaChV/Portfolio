@@ -1,0 +1,11 @@
+body {
+    font-family: 'Poppins', sans-serif;
+    background: linear-gradient(298.63deg, rgba(255, 188, 15, 0.53) 43.16%, rgba(255, 255, 255, 0.4) 92.58%);
+    color: #black
+    filter: blur(150px);
+}
+
+.caja {
+    padding-left: 6%;
+    padding-right: 6%;
+}

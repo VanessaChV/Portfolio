@@ -1,8 +1,12 @@
 .footer {
     color: #444343;
-    bottom: auto;
+    display: flex;
     font-size: 14px;
-    margin-top: 8.3rem;
-    text-align: center;
-    width: 100%;
+    justify-content: center;
+    width: auto;
+}
+
+.caja {
+    padding-left: 6%;
+    padding-right: 6%;
 }
